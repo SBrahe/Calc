@@ -68,27 +68,43 @@ namespace Calculator.Test.Unit
         //Accumulator tests:
         [Test]
         public void Cascading_addition_one_two_three()
-        { }
+        {
+            _uut.Add(1, 2);
+            Assert.That(_uut.Add(3), Is.EqualTo(6));
+        }
 
         [Test]
         public void Cascading_subtraction_10_5_2()
-        { }
+        {
+            _uut.Subtract(10, 5);
+           Assert.That( _uut.Subtract(2),Is.EqualTo(3));
+        }
 
         [Test]
         public void Cascading_multiplication_5_5_5()
         {
-
+            _uut.Multiply(5, 5);
+            Assert.That(_uut.Multiply(5),Is.EqualTo(125));
         }
+
         [Test]
         public void Cascading_division_40_2_2()
-        { }
+        {
+            _uut.Divide(40, 2);
+            Assert.That(_uut.Divide(2),Is.EqualTo(10));
+        }
 
         [Test]
         public void Cascading_division_divide_by_zero_40_2_0()
-        { }
+        {
+            uut.Divide(40, 2);
+            Assert.That(_uut.Divide(0), Is.EqualTo(0));
+        }
 
         [Test]
         public void Cascading_power_2_4()
-        { }
+        {
+
+        }
     }
 }
