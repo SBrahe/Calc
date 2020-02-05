@@ -25,5 +25,17 @@ namespace Calculator
             return Math.Pow(x, exp);
         }
 
+        public double Divide(double dividend, double divisor)
+        {
+            try
+            {
+                return dividend / divisor;
+            }
+            catch
+            {
+                Console.WriteLine("Cannot divide by Zero");
+                return 0;
+            }
+        }
     }
 }

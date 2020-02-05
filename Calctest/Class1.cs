@@ -50,5 +50,10 @@ namespace Calculator.Test.Unit
         {
             Assert.That(_uut.Power(2, 4), Is.EqualTo(16));
         }
+
+        public void Divide_Two_And_Two()
+        {
+            Assert.That(_uut.Divide(2, 2), Is.EqualTo(1));
+        }
     }
 }
