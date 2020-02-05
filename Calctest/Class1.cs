@@ -51,9 +51,39 @@ namespace Calculator.Test.Unit
             Assert.That(_uut.Power(2, 4), Is.EqualTo(16));
         }
 
+        [Test]
         public void Divide_Two_And_Two()
         {
             Assert.That(_uut.Divide(2, 2), Is.EqualTo(1));
         }
+
+
+
+
+        //Accumulator tests:
+        [Test]
+        public void Cascading_addition_one_two_three()
+        { }
+
+        [Test]
+        public void Cascading_subtraction_10_5_2()
+        { }
+
+        [Test]
+        public void Cascading_multiplication_5_5_5()
+        {
+
+        }
+        [Test]
+        public void Cascading_division_40_2_2()
+        { }
+
+        [Test]
+        public void Cascading_division_divide_by_zero_40_2_0()
+        { }
+
+        [Test]
+        public void Cascading_power_2_4()
+        { }
     }
 }

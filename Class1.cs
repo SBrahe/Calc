@@ -31,7 +31,7 @@ namespace Calculator
             {
                 return dividend / divisor;
             }
-            catch
+            catch 
             {
                 Console.WriteLine("Cannot divide by Zero");
                 return 0;
@@ -65,6 +65,5 @@ namespace Calculator
 
 
         public double Accumulator { get; private set; }
-
     }
 }
