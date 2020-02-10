@@ -1,0 +1,11 @@
+Z:\IKT\repos\SBrahe\Calc\Calctest\bin\Debug\Calctest.dll
+Z:\IKT\repos\SBrahe\Calc\Calctest\bin\Debug\Calctest.pdb
+Z:\IKT\repos\SBrahe\Calc\Calctest\bin\Debug\Calc.dll
+Z:\IKT\repos\SBrahe\Calc\Calctest\bin\Debug\nunit.framework.dll
+Z:\IKT\repos\SBrahe\Calc\Calctest\bin\Debug\Calc.pdb
+Z:\IKT\repos\SBrahe\Calc\Calctest\bin\Debug\nunit.framework.pdb
+Z:\IKT\repos\SBrahe\Calc\Calctest\bin\Debug\nunit.framework.xml
+Z:\IKT\repos\SBrahe\Calc\Calctest\obj\Debug\Calctest.csprojAssemblyReference.cache
+Z:\IKT\repos\SBrahe\Calc\Calctest\obj\Debug\Calctest.csproj.CopyComplete
+Z:\IKT\repos\SBrahe\Calc\Calctest\obj\Debug\Calctest.dll
+Z:\IKT\repos\SBrahe\Calc\Calctest\obj\Debug\Calctest.pdb

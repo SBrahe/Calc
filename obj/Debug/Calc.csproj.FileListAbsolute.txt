@@ -1,0 +1,4 @@
+Z:\IKT\repos\SBrahe\Calc\bin\Debug\Calc.dll
+Z:\IKT\repos\SBrahe\Calc\bin\Debug\Calc.pdb
+Z:\IKT\repos\SBrahe\Calc\obj\Debug\Calc.dll
+Z:\IKT\repos\SBrahe\Calc\obj\Debug\Calc.pdb

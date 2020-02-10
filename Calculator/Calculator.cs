@@ -1,27 +1,33 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
+
 namespace Calculator
 {
 	public class CalculatorClass
 	{
 		public double Add(double a, double b)
 		{
-			return a + b;
-		}
+            Accumulator = a + b;
+            return Accumulator;
+        }
 
 		public double Subtract(double a, double b)
 		{
-			return a - b;
-		}
+			Accumulator = a - b;
+            return Accumulator;
+        }
 		public double Multiply(double a, double b)
 		{
-			return a * b;
-		}
+			Accumulator = a * b;
+            return Accumulator;
+        }
 
 
 		public double Power(double x, double exp)
 		{
-			return Math.Pow(x, exp);
-		}
+			Accumulator = Math.Pow(x, exp);
+            return Accumulator;
+        }
 
 		public double Divide(double dividend, double divisor)
 		{
@@ -38,28 +44,33 @@ namespace Calculator
 
 		public double Add(double addend)
 		{
-			return Accumulator + addend;
-		}
+            Accumulator += addend;
+            return Accumulator;
+        }
 
 		public double Subtract(double subTractor)
 		{
-			return Accumulator - subTractor;
-		}
+            Accumulator -= subTractor;
+            return Accumulator;
+        }
 
 		public double Multiply(double multiplier)
 		{
-			return Accumulator * multiplier;
-		}
+            Accumulator *= multiplier;
+            return Accumulator;
+        }
 
 		public double Divide(double divisor)
 		{
-			return Accumulator / divisor;
-		}
+            Accumulator /= divisor;
+            return Accumulator;
+        }
 
 		public double Power(double exponent)
 		{
-			return Math.Pow(Accumulator, exponent);
-		}
+			Accumulator = Math.Pow(Accumulator, exponent);
+            return Accumulator;
+        }
 
 		public double Accumulator { get; private set; }
 	}

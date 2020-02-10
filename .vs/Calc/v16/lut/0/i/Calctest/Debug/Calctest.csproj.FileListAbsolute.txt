@@ -1,0 +1,4 @@
+Z:\IKT\repos\SBrahe\Calc\.vs\Calc\v16\lut\0\b\Calctest\bin\Debug\Calctest.dll
+Z:\IKT\repos\SBrahe\Calc\.vs\Calc\v16\lut\0\i\Calctest\Debug\Calctest.csprojAssemblyReference.cache
+Z:\IKT\repos\SBrahe\Calc\.vs\Calc\v16\lut\0\i\Calctest\Debug\Calctest.csproj.CopyComplete
+Z:\IKT\repos\SBrahe\Calc\.vs\Calc\v16\lut\0\i\Calctest\Debug\Calctest.dll
