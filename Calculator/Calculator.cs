@@ -31,16 +31,10 @@ namespace Calculator
 
 		public double Divide(double dividend, double divisor)
 		{
-			try
-			{
-				return dividend / divisor;
-			}
-			catch
-			{
-				Console.WriteLine("Cannot divide by Zero");
-				return 0;
-			}
-		}
+            
+            Accumulator = dividend / divisor;
+            return Accumulator;
+        }
 
 		public double Add(double addend)
 		{
@@ -62,15 +56,9 @@ namespace Calculator
 
 		public double Divide(double divisor)
 		{
-            try
-            {
-                Accumulator /= divisor;
-			}
-            catch (DivideByZeroException)
-            {
-                Console.WriteLine("DivideByZeroException");
-                throw;
-            }
+            
+            Accumulator /= divisor;
+			
             return Accumulator;
         }
 

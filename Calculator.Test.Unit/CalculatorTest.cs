@@ -22,10 +22,17 @@ namespace Calculator.Test.Unit
         [Test]
         public void Add_OnePlusOne_returnsTwo()
         {
-	        Assert.That(_uut.Add(1, 1), Is.EqualTo(2));
+            //Arrange- setup
+
+            //Act 
+
+            //Assert
+
+            Assert.That(_uut.Add(1, 1), Is.EqualTo(2));
         }
 
         [Test]
+
         public void Subtract_OneFromTwo_ReturnsOne()
         {
             Assert.That(_uut.Subtract(2, 1), Is.EqualTo(1));
@@ -53,35 +60,35 @@ namespace Calculator.Test.Unit
         [Test]
         public void Divide_Two_And_Zero()
         {
-            Assert.That(_uut.Divide(2, 0), Is.EqualTo(0));
+            Assert.That(_uut.Divide(2, 0), Is.EqualTo(double.PositiveInfinity));
         }
 
 
 
         //Accumulator tests:
         [Test]
-        public void Cascading_addition_one_two_three()
+        public void One_Param_addition_one_two_three()
         {
             _uut.Add(1, 2);
             Assert.That(_uut.Add(3), Is.EqualTo(6));
         }
 
         [Test]
-        public void Cascading_subtraction_10_5_2()
+        public void One_Param_subtraction_10_5_2()
         {
             _uut.Subtract(10, 5);
             Assert.That(_uut.Subtract(2), Is.EqualTo(3));
         }
 
         [Test]
-        public void Cascading_multiplication_5_5_5()
+        public void One_Param_multiplication_5_5_5()
         {
             _uut.Multiply(5, 5);
             Assert.That(_uut.Multiply(5), Is.EqualTo(125));
         }
 
         [Test]
-        public void Cascading_division_40_2_2()
+        public void One_Param_division_40_2_2()
         {
             //_uut.Divide(40, 2);
 
@@ -91,15 +98,15 @@ namespace Calculator.Test.Unit
         }
 
         [Test]
-        public void Cascading_division_divide_by_zero_40_2_0()
+        public void One_Param_division_divide_by_zero_40_2_0()
         {
 
             _uut.Divide(40, 2);
-            Assert.That(_uut.Divide(0), Is.EqualTo(0));
+            Assert.That(_uut.Divide(0), Is.EqualTo(double.PositiveInfinity));
         }
 
         [Test]
-        public void Cascading_power_2_4()
+        public void One_Param_power_2_4()
         {
 
         }
