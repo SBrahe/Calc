@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oskar\\source\\repos\\CalculatorExercise\\Calculator\\Calculator.csproj",
+      "projectUniqueName": "C:\\Users\\Oskar\\Source\\Repos\\SBrahe\\Calc\\Calculator\\Calculator.csproj",
       "projectName": "Calculator",
-      "projectPath": "C:\\Users\\Oskar\\source\\repos\\CalculatorExercise\\Calculator\\Calculator.csproj",
+      "projectPath": "C:\\Users\\Oskar\\Source\\Repos\\SBrahe\\Calc\\Calculator\\Calculator.csproj",
       "packagesPath": "C:\\Users\\Oskar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Oskar\\source\\repos\\CalculatorExercise\\Calculator\\obj\\",
+      "outputPath": "C:\\Users\\Oskar\\Source\\Repos\\SBrahe\\Calc\\Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Oskar\\AppData\\Roaming\\NuGet\\NuGet.Config",

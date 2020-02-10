@@ -22,17 +22,10 @@ namespace Calculator.Test.Unit
         [Test]
         public void Add_OnePlusOne_returnsTwo()
         {
-            //Arrange- setup
-
-            //Act 
-
-            //Assert
-
-            Assert.That(_uut.Add(1, 1), Is.EqualTo(2));
+	        Assert.That(_uut.Add(1, 1), Is.EqualTo(2));
         }
 
         [Test]
-
         public void Subtract_OneFromTwo_ReturnsOne()
         {
             Assert.That(_uut.Subtract(2, 1), Is.EqualTo(1));

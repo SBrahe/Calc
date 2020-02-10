@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
+
 namespace Calculator
 {
 	public class CalculatorClass
@@ -25,15 +27,21 @@ namespace Calculator
 
 		public double Divide(double dividend, double divisor)
 		{
+			double x;
 			try
 			{
-				return dividend / divisor;
+				if (divisor == 0)
+				{
+					throw new Exception();
+				}
+				x = dividend / divisor;
 			}
 			catch
 			{
 				Console.WriteLine("Cannot divide by Zero");
 				return 0;
 			}
+			return x;
 		}
 
 		public double Add(double addend)
