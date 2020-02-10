@@ -1,0 +1,8 @@
+C:\Users\Oskar\source\repos\Calculator\bin\Debug\netstandard2.0\Calculator.deps.json
+C:\Users\Oskar\source\repos\Calculator\bin\Debug\netstandard2.0\Calculator.dll
+C:\Users\Oskar\source\repos\Calculator\bin\Debug\netstandard2.0\Calculator.pdb
+C:\Users\Oskar\source\repos\Calculator\obj\Debug\netstandard2.0\Calculator.csprojAssemblyReference.cache
+C:\Users\Oskar\source\repos\Calculator\obj\Debug\netstandard2.0\Calculator.AssemblyInfoInputs.cache
+C:\Users\Oskar\source\repos\Calculator\obj\Debug\netstandard2.0\Calculator.AssemblyInfo.cs
+C:\Users\Oskar\source\repos\Calculator\obj\Debug\netstandard2.0\Calculator.dll
+C:\Users\Oskar\source\repos\Calculator\obj\Debug\netstandard2.0\Calculator.pdb
