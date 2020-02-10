@@ -9,7 +9,7 @@ using NUnit.Framework;
 namespace Calculator.Test.Unit
 {
     [TestFixture]
-    public class CalculatorTestUnit
+    public class CalculatorUnitTests
     {
         private CalculatorClass _uut;
 

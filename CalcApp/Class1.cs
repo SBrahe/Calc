@@ -63,7 +63,6 @@ namespace Calculator
             return Math.Pow(Accumulator, exponent);
         }
 
-
         public double Accumulator { get; private set; }
     }
 }
