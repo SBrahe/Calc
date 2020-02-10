@@ -62,7 +62,15 @@ namespace Calculator
 
 		public double Divide(double divisor)
 		{
-            Accumulator /= divisor;
+            try
+            {
+                Accumulator /= divisor;
+			}
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("DivideByZeroException");
+                throw;
+            }
             return Accumulator;
         }
 
@@ -72,6 +80,6 @@ namespace Calculator
             return Accumulator;
         }
 
-		public double Accumulator { get; private set; }
+		public double Accumulator { get; set; }
 	}
 }

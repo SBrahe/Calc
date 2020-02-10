@@ -90,14 +90,18 @@ namespace Calculator.Test.Unit
         [Test]
         public void Cascading_division_40_2_2()
         {
-            _uut.Divide(40, 2);
+            //_uut.Divide(40, 2);
+
+            _uut.Accumulator = 40;
+            _uut.Divide(2);
             Assert.That(_uut.Divide(2), Is.EqualTo(10));
         }
 
         [Test]
         public void Cascading_division_divide_by_zero_40_2_0()
         {
-            //uut.Divide(40, 2);
+
+            _uut.Divide(40, 2);
             Assert.That(_uut.Divide(0), Is.EqualTo(0));
         }
 
