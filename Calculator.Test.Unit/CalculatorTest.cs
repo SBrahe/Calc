@@ -92,8 +92,8 @@ namespace Calculator.Test.Unit
         {
             //_uut.Divide(40, 2);
 
-            _uut.Accumulator = 40;
-            _uut.Divide(2);
+            
+            _uut.Divide(40,2);
             Assert.That(_uut.Divide(2), Is.EqualTo(10));
         }
 
@@ -106,9 +106,41 @@ namespace Calculator.Test.Unit
         }
 
         [Test]
-        public void One_Param_power_2_4()
+        public void One_Param_power_2_4_2()
         {
-
+            _uut.Power(2, 4);
+            Assert.That(_uut.Power(2),Is.EqualTo(256));
         }
+
+        [Test]
+        public void One_Param_power_minus_2_2_3()
+        {
+            _uut.Power(-2, 2);
+            Assert.That(_uut.Power(3), Is.EqualTo(64));
+        }
+
+        [Test]
+        public void One_Param_power_minus_2_3_3()
+        {
+           
+            _uut.Power(-2, 3);
+            Assert.That(_uut.Power(3), Is.EqualTo(-512));
+        }
+
+        [Test]
+        public void One_Param_power_2_minus_4_2()
+        {
+            _uut.Power(2, -4);
+            Assert.That(_uut.Power(2), Is.EqualTo(0.00390625));
+        }
+
+        [Test]
+        public void ClearAccumulator()
+        {
+            _uut.Add(5, 5);
+            _uut.Clear();
+            Assert.That(_uut.Accumulator,Is.EqualTo(0));
+        }
+
     }
 }

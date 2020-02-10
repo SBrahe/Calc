@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 
 namespace Calculator
 {
@@ -63,11 +64,21 @@ namespace Calculator
         }
 
 		public double Power(double exponent)
-		{
+        {
+           
+
 			Accumulator = Math.Pow(Accumulator, exponent);
+
             return Accumulator;
         }
 
-		public double Accumulator { get; set; }
+        public void Clear()
+        {
+            Accumulator = 0;
+        }
+
+        
+
+		public double Accumulator { get; private set; }
 	}
 }
