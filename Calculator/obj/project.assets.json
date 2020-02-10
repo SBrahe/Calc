@@ -180,19 +180,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Oskar\\.nuget\\packages\\": {}
+    "C:\\Users\\Kristian Jespersen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oskar\\Source\\Repos\\SBrahe\\Calc\\Calculator\\Calculator.csproj",
+      "projectUniqueName": "Z:\\IKT\\repos\\SBrahe\\Calc\\Calculator\\Calculator.csproj",
       "projectName": "Calculator",
-      "projectPath": "C:\\Users\\Oskar\\Source\\Repos\\SBrahe\\Calc\\Calculator\\Calculator.csproj",
-      "packagesPath": "C:\\Users\\Oskar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Oskar\\Source\\Repos\\SBrahe\\Calc\\Calculator\\obj\\",
+      "projectPath": "Z:\\IKT\\repos\\SBrahe\\Calc\\Calculator\\Calculator.csproj",
+      "packagesPath": "C:\\Users\\Kristian Jespersen\\.nuget\\packages\\",
+      "outputPath": "Z:\\IKT\\repos\\SBrahe\\Calc\\Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Oskar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kristian Jespersen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
